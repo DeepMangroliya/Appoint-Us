@@ -1,0 +1,21 @@
+.form-div {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .form-div {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+}

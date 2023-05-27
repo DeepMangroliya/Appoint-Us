@@ -1,0 +1,213 @@
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+.table-data {
+  padding-top: 25px;
+  width: 90%;
+  margin: auto;
+}
+
+.table-color {
+  background-color: rgb(92, 92, 226) !important;
+  /* background-color: #1c554b !important; */
+  color: white;
+}
+table {
+  border: 3px solid black;
+  border-radius: 40px;
+}
+
+#p {
+  background-color: #1e619b;
+  padding: 3.5px;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+#h {
+  padding: 3.5px;
+  color: white;
+  border-radius: 3px;
+  background-color: #4d934d;
+  font-size: 15px;
+}
+a {
+  /* color: white; */
+  text-decoration: none;
+}
+a:hover {
+  /* color: white; */
+}
+
+#r {
+  background-color: red;
+  padding: 3.5px;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* @media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+} */
+
+/* @media screen and (max-width: 450px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+} */
+
+/* hello */
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+} */
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #298170;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* @media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+} */
+
+@media screen and (max-width: 500px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+#profile-image {
+  border-radius: 50%;
+  height: 75%;
+  width: 75%;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
